@@ -1,0 +1,2 @@
+C:\Users\hnevk\Source\Repos\Soustava\SoustavaFormApp\SoustavaFormApp\obj\Debug\SoustavaFormApp.Properties.Resources.resources
+C:\Users\hnevk\Source\Repos\Soustava\SoustavaFormApp\SoustavaFormApp\obj\Debug\SoustavaFormApp.csproj.GenerateResource.Cache
