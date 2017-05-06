@@ -15,6 +15,12 @@ namespace SoustavaFormApp
         public MainWindow()
         {
             InitializeComponent();
+            zobrazZpravu();
+        }
+
+        private void zobrazZpravu()
+        {
+            MessageBox.Show("zprava");
         }
     }
 }
