@@ -15,12 +15,21 @@ namespace SoustavaFormApp
         public MainWindow()
         {
             InitializeComponent();
-            zobrazZpravu();
+        
         }
 
-        private void zobrazZpravu()
+
+        
+
+        private void button1_Click(object sender, EventArgs e)
         {
-            MessageBox.Show("zprava");
+            //zvladnes dát do konstant graphic pen solidbruhs? zkusím to..... ukazu, mooment
+            Vykresly vykresy = new Vykresly();
+            Graphics g = base.CreateGraphics();
+            Pen myPen = new Pen(Color.Red);
+            SolidBrush mySolidBrush = new SolidBrush(Color.Red);
+
+            vykresy.kruh(g, Constants.slunceTloustkaCary, Constants.poziceSlunceX, Constants.poziceSlunceY, Constants.velikostSlunce);
         }
     }
 }
