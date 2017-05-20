@@ -17,7 +17,7 @@ namespace SoustavaFormApp
 
         public Color ForegroundColor { get; set; }
 
-        //mnt
+        
 
         public  void kruh(Graphics g, Pen pen, int x, int y, int size)
         {

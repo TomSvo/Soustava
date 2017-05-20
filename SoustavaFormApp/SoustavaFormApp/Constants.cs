@@ -14,9 +14,24 @@ namespace SoustavaFormApp
         //Slunce
         public static int poziceSlunceX = 200;
         public static int poziceSlunceY = 200;
-        public static int velikostSlunce = 300;
+        public static int velikostSlunce = 50;
 
         public static Pen slunceTloustkaCary = new Pen(Color.Red);
-        //a takhle i s ostatnima. priste uz to jenom rozpohybujem, planetu vytvoris uplne stejne jako slunce ok commitni to jj
+
+        //Planeta1
+        public static int pozicePlaneta1X = 300;
+        public static int pozicePlaneta1Y = 300;
+        public static int velikostPlaneta1 = 20;
+
+        public static Pen Planeta1TloustkaCary = new Pen(Color.Blue);
+
+        //Planeta2
+        public static int pozicePlaneta2X = 350;
+        public static int pozicePlaneta2Y = 350;
+        public static int velikostPlaneta2 = 25;
+
+        public static Pen Planeta2TloustkaCary = new Pen(Color.Green);
+
+
     }
 }

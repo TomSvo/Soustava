@@ -6,17 +6,28 @@ using System.Threading.Tasks;
 
 namespace SoustavaFormApp
 {
-    class Planeta
+    public class Planeta
     {
-        string velikost { get; set; }
 
-        int gravitace { get; set; }
 
-        int rychlost { get; set; }
 
-        int positionX { get; set; }
+        public double Velikost { get; set; }
 
-        int postitionY { get; set; }
+        public double RychlostX { get; set; }
+        public double RychlostY { get; set; }
+
+        public double PositionX { get; set; }
+
+        public double PositionY { get; set; }
+
+        public Planeta(double velikost, double rychlostX, double rychlostY, double positionX, double positionY)
+        {
+            this.Velikost = velikost;
+            this.RychlostX = rychlostX;
+            this.RychlostY = rychlostY;
+            this.PositionX = positionX;
+            this.PositionY = positionY;
+        }
 
         //potom zavolat new planeta a nasypat do ni hodnoty
         //udělat kruh a rozrotovat ho

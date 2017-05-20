@@ -23,13 +23,22 @@ namespace SoustavaFormApp
 
         private void button1_Click(object sender, EventArgs e)
         {
-            //zvladnes dát do konstant graphic pen solidbruhs? zkusím to..... ukazu, mooment
+            //dát do konstant graphic pen solidbrush
             Vykresly vykresy = new Vykresly();
             Graphics g = base.CreateGraphics();
             Pen myPen = new Pen(Color.Red);
             SolidBrush mySolidBrush = new SolidBrush(Color.Red);
 
             vykresy.kruh(g, Constants.slunceTloustkaCary, Constants.poziceSlunceX, Constants.poziceSlunceY, Constants.velikostSlunce);
+
+            vykresy.kruh(g, Constants.Planeta1TloustkaCary, Constants.pozicePlaneta1X, Constants.pozicePlaneta1Y, Constants.velikostPlaneta1);
+
+            vykresy.kruh(g, Constants.Planeta1TloustkaCary, Constants.pozicePlaneta2X, Constants.pozicePlaneta2Y, Constants.velikostPlaneta2);
+        }
+
+        private void timer1_Tick(object sender, EventArgs e)
+        {
+
         }
     }
 }
