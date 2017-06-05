@@ -27,12 +27,12 @@ X:\zpr\SoustavaFormApp\SoustavaFormApp\obj\Debug\SoustavaFormApp.Properties.Reso
 X:\zpr\SoustavaFormApp\SoustavaFormApp\obj\Debug\SoustavaFormApp.csproj.GenerateResource.Cache
 X:\zpr\SoustavaFormApp\SoustavaFormApp\obj\Debug\SoustavaFormApp.exe
 X:\zpr\SoustavaFormApp\SoustavaFormApp\obj\Debug\SoustavaFormApp.pdb
-\\kacenka.litv.sssvt.cz\StudentiPrenosne\SvobodaTomas\zpr\SoustavaFormApp\SoustavaFormApp\bin\Debug\SoustavaFormApp.exe.config
-\\kacenka.litv.sssvt.cz\StudentiPrenosne\SvobodaTomas\zpr\SoustavaFormApp\SoustavaFormApp\bin\Debug\SoustavaFormApp.exe
-\\kacenka.litv.sssvt.cz\StudentiPrenosne\SvobodaTomas\zpr\SoustavaFormApp\SoustavaFormApp\bin\Debug\SoustavaFormApp.pdb
-\\kacenka.litv.sssvt.cz\StudentiPrenosne\SvobodaTomas\zpr\SoustavaFormApp\SoustavaFormApp\obj\Debug\SoustavaFormApp.csprojResolveAssemblyReference.cache
 \\kacenka.litv.sssvt.cz\StudentiPrenosne\SvobodaTomas\zpr\SoustavaFormApp\SoustavaFormApp\obj\Debug\SoustavaFormApp.MainWindow.resources
 \\kacenka.litv.sssvt.cz\StudentiPrenosne\SvobodaTomas\zpr\SoustavaFormApp\SoustavaFormApp\obj\Debug\SoustavaFormApp.Properties.Resources.resources
 \\kacenka.litv.sssvt.cz\StudentiPrenosne\SvobodaTomas\zpr\SoustavaFormApp\SoustavaFormApp\obj\Debug\SoustavaFormApp.csproj.GenerateResource.Cache
+\\kacenka.litv.sssvt.cz\StudentiPrenosne\SvobodaTomas\zpr\SoustavaFormApp\SoustavaFormApp\bin\Debug\SoustavaFormApp.exe.config
+\\kacenka.litv.sssvt.cz\StudentiPrenosne\SvobodaTomas\zpr\SoustavaFormApp\SoustavaFormApp\bin\Debug\SoustavaFormApp.exe
+\\kacenka.litv.sssvt.cz\StudentiPrenosne\SvobodaTomas\zpr\SoustavaFormApp\SoustavaFormApp\bin\Debug\SoustavaFormApp.pdb
 \\kacenka.litv.sssvt.cz\StudentiPrenosne\SvobodaTomas\zpr\SoustavaFormApp\SoustavaFormApp\obj\Debug\SoustavaFormApp.exe
 \\kacenka.litv.sssvt.cz\StudentiPrenosne\SvobodaTomas\zpr\SoustavaFormApp\SoustavaFormApp\obj\Debug\SoustavaFormApp.pdb
+\\kacenka.litv.sssvt.cz\StudentiPrenosne\SvobodaTomas\zpr\SoustavaFormApp\SoustavaFormApp\obj\Debug\SoustavaFormApp.csprojResolveAssemblyReference.cache

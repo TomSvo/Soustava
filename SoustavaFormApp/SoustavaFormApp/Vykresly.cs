@@ -21,8 +21,10 @@ namespace SoustavaFormApp
 
         public  void kruh(Graphics g, Pen pen, int x, int y, int size)
         {
-            SolidBrush mySolidBrush = new SolidBrush(Color.Red);
             g.DrawEllipse(pen, x, y, size, size);
+            
         }
+
+
     }
 }
