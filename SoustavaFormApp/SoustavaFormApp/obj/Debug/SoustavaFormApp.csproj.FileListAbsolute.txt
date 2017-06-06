@@ -36,3 +36,15 @@ X:\zpr\SoustavaFormApp\SoustavaFormApp\obj\Debug\SoustavaFormApp.pdb
 \\kacenka.litv.sssvt.cz\StudentiPrenosne\SvobodaTomas\zpr\SoustavaFormApp\SoustavaFormApp\obj\Debug\SoustavaFormApp.exe
 \\kacenka.litv.sssvt.cz\StudentiPrenosne\SvobodaTomas\zpr\SoustavaFormApp\SoustavaFormApp\obj\Debug\SoustavaFormApp.pdb
 \\kacenka.litv.sssvt.cz\StudentiPrenosne\SvobodaTomas\zpr\SoustavaFormApp\SoustavaFormApp\obj\Debug\SoustavaFormApp.csprojResolveAssemblyReference.cache
+\\kacenka.litv.sssvt.cz\StudentiPrenosne\SvobodaTomas\zpr\SoustavaFormApp\SoustavaFormApp\obj\Debug\SoustavaFormApp.ZdrojovySoubor.resources
+X:\zpr\SoustavaFormApp\SoustavaFormApp\obj\Debug\SoustavaFormApp.ZdrojovySoubor.resources
+D:\Users\TomSv\Desktop\škola\prog\SoustavaFormApp\SoustavaFormApp\bin\Debug\SoustavaFormApp.exe.config
+D:\Users\TomSv\Desktop\škola\prog\SoustavaFormApp\SoustavaFormApp\bin\Debug\SoustavaFormApp.exe
+D:\Users\TomSv\Desktop\škola\prog\SoustavaFormApp\SoustavaFormApp\bin\Debug\SoustavaFormApp.pdb
+D:\Users\TomSv\Desktop\škola\prog\SoustavaFormApp\SoustavaFormApp\obj\Debug\SoustavaFormApp.csprojResolveAssemblyReference.cache
+D:\Users\TomSv\Desktop\škola\prog\SoustavaFormApp\SoustavaFormApp\obj\Debug\SoustavaFormApp.MainWindow.resources
+D:\Users\TomSv\Desktop\škola\prog\SoustavaFormApp\SoustavaFormApp\obj\Debug\SoustavaFormApp.Properties.Resources.resources
+D:\Users\TomSv\Desktop\škola\prog\SoustavaFormApp\SoustavaFormApp\obj\Debug\SoustavaFormApp.ZdrojovySoubor.resources
+D:\Users\TomSv\Desktop\škola\prog\SoustavaFormApp\SoustavaFormApp\obj\Debug\SoustavaFormApp.csproj.GenerateResource.Cache
+D:\Users\TomSv\Desktop\škola\prog\SoustavaFormApp\SoustavaFormApp\obj\Debug\SoustavaFormApp.exe
+D:\Users\TomSv\Desktop\škola\prog\SoustavaFormApp\SoustavaFormApp\obj\Debug\SoustavaFormApp.pdb

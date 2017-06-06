@@ -12,82 +12,45 @@ namespace SoustavaFormApp
 {
     public partial class MainWindow : Form
     {
+
+        private Game hra;
         public MainWindow()
         {
             InitializeComponent();
-            kontrola = 0;
+            this.hra = new Game(this);
         }
 
-        public int kontrola;
-        
-
-        private void button1_Click(object sender, EventArgs e)
+        private void Timer_Tick(object sender, EventArgs e)
         {
-            //dát do konstant graphic pen solidbrush
-            Vykresly vykresy = new Vykresly();
-            Graphics g = base.CreateGraphics();
-            Pen myPen = new Pen(Color.Red);
-
-            vykresy.kruh(g, Constants.slunceTloustkaCary, Constants.poziceSlunceX, Constants.poziceSlunceY, Constants.velikostSlunce);
-
-            //vykresy.kruh(g, Constants.Planeta1TloustkaCary, Constants.pozicePlaneta1X, Constants.pozicePlaneta1Y, Constants.velikostPlaneta1);
-
-            //vykresy.kruh(g, Constants.Planeta1TloustkaCary, Constants.pozicePlaneta2X, Constants.pozicePlaneta2Y, Constants.velikostPlaneta2);
-
-            timer1.Enabled = true;
-            //rychlost obehu
-         timer1.Interval = 50;
-
-
+            hra.Update();
         }
-        public void vykreslyPlanetu(bool isZobrazit)
+
+        private void Platno_Paint(object sender, PaintEventArgs e)
         {
-            Vykresly vykresy = new Vykresly();
-            Graphics g = base.CreateGraphics();
-            if (isZobrazit)
+            hra.Kresli(e.Graphics);
+        }
+
+        public PictureBox VratPlatno()
+        {
+            return this.Platno;
+        }
+
+        private void MainWindow_KeyDown(object sender, KeyEventArgs e)
+        {
+            Keys key = e.KeyCode;
+
+            if (key == Keys.A)
             {
-                if (kontrola % 2 == 0)
-                {
-                    Pen myPen = new Pen(Color.Red);
-                    vykresy.kruh(g, Constants.Planeta1Barva, Constants.pozicePlaneta1X, Constants.pozicePlaneta1Y, Constants.velikostPlaneta1);
-                }
-
-                vykresy.kruh(g, Constants.RaketaBarva, Constants.poziceRaketaX, Constants.poziceRaketaY, Constants.velikostRaketa);
-
+                this.hra.OtocRaketu(-8f);
             }
-            else
+            if (key == Keys.D)
             {
-                
-                    Pen barvaPozadi = new Pen(this.BackColor);
-                    vykresy.kruh(g, barvaPozadi, Constants.pozicePlaneta1X, Constants.pozicePlaneta1Y, Constants.velikostPlaneta1);
-                
+                this.hra.OtocRaketu(8f);
             }
-            
-
+            if (key == Keys.W)
+            {
+                this.hra.Raketa.Zazeh();
+            }
         }
-        private void timer1_Tick(object sender, EventArgs e)
-        {
-            kontrola++;
-            double presnost = 0.1;
-            //schovám planetu na staré pozici
-            vykreslyPlanetu(false);
-            //přepočítám pozice planety
-            double x = Math.Cos(presnost) * (Constants.pozicePlaneta1X - Constants.poziceSlunceX) - Math.Sin(presnost) * (Constants.pozicePlaneta1Y - Constants.poziceSlunceY) + Constants.poziceSlunceX;
-            double y = Math.Sin(presnost) * (Constants.pozicePlaneta1X - Constants.poziceSlunceX) + Math.Cos(presnost) * (Constants.pozicePlaneta1Y - Constants.poziceSlunceY) + Constants.poziceSlunceY;
-            Constants.pozicePlaneta1X = Convert.ToInt32(x);
-            Constants.pozicePlaneta1Y = Convert.ToInt32(y);
-
-
-
-
-            //zobrazím planetu na nové pozici
-            vykreslyPlanetu(true);
-            
-           
-
-
-        }
-
-        
     }
 }

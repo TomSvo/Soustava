@@ -29,41 +29,43 @@
         private void InitializeComponent()
         {
             this.components = new System.ComponentModel.Container();
-            this.button1 = new System.Windows.Forms.Button();
-            this.timer1 = new System.Windows.Forms.Timer(this.components);
+            this.Timer = new System.Windows.Forms.Timer(this.components);
+            this.Platno = new System.Windows.Forms.PictureBox();
+            ((System.ComponentModel.ISupportInitialize)(this.Platno)).BeginInit();
             this.SuspendLayout();
             // 
-            // button1
+            // Timer
             // 
-            this.button1.Location = new System.Drawing.Point(685, 369);
-            this.button1.Name = "button1";
-            this.button1.Size = new System.Drawing.Size(75, 23);
-            this.button1.TabIndex = 0;
-            this.button1.Text = "Vytvor";
-            this.button1.UseVisualStyleBackColor = true;
-            this.button1.Click += new System.EventHandler(this.button1_Click);
+            this.Timer.Enabled = true;
+            this.Timer.Interval = 10;
+            this.Timer.Tick += new System.EventHandler(this.Timer_Tick);
             // 
-            // timer1
+            // Platno
             // 
-            this.timer1.Interval = 10;
-            this.timer1.Tick += new System.EventHandler(this.timer1_Tick);
+            this.Platno.Location = new System.Drawing.Point(0, 0);
+            this.Platno.Name = "Platno";
+            this.Platno.Size = new System.Drawing.Size(1181, 538);
+            this.Platno.TabIndex = 0;
+            this.Platno.TabStop = false;
+            this.Platno.Paint += new System.Windows.Forms.PaintEventHandler(this.Platno_Paint);
             // 
             // MainWindow
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(790, 416);
-            this.Controls.Add(this.button1);
+            this.ClientSize = new System.Drawing.Size(1176, 535);
+            this.Controls.Add(this.Platno);
             this.Name = "MainWindow";
-            this.Text = "Soustava";
+            this.Text = "p";
+            this.KeyDown += new System.Windows.Forms.KeyEventHandler(this.MainWindow_KeyDown);
+            ((System.ComponentModel.ISupportInitialize)(this.Platno)).EndInit();
             this.ResumeLayout(false);
 
         }
 
         #endregion
-
-        private System.Windows.Forms.Button button1;
-        private System.Windows.Forms.Timer timer1;
+        private System.Windows.Forms.Timer Timer;
+        private System.Windows.Forms.PictureBox Platno;
     }
 }
 
